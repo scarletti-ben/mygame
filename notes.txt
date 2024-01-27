@@ -1,0 +1,14 @@
+
+~ Ideas
+    Have the tooltip class handle 'get_tooltip_lines' by having specified functions for each descriptor type
+        Implement default descriptor and error tooltips "object has an unrecognised descriptor"
+
+    * Give update methods to sprites and entities
+        * Have a boolean that checks if the sprite/entity has ever been updated
+        * Raise error if the entity should be updating every frame
+
+# Create a discarding screen, as in a select card to discard screen with a dimmed version of the background
+    # Ensure there is a hide / unhide button for the display beneath
+    ~ Extend the functionality to card reward screen
+* Possibly achieved with a layer system for draw queue where the second layer covers the entire game
+    * and then top layer objects are drawn on top
