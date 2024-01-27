@@ -6,6 +6,8 @@ pygame.init()
 mygame.disable_dpi_scaling()
 mygame.clear_terminal()
 
+# Testing GitHub commit
+
 # ~ Object Imports
 from mygame.experimental.test_rectangleA01 import TestRectangle
 from mygame.mouse import get_held, set_held, get_hovered, set_hovered
